@@ -20,8 +20,8 @@ function sumOfNumbers(arrayOfNumbers) {
   for (let i = 0; i <arrayOfNumbers.length; i++) {
     sum = sum + arrayOfNumbers[i];
   }
+    return sumOfNumbers
 }
-    console.log(sumOfNumbers)
 assignment.sumOfNumbers = sumOfNumbers;
 
 /**
@@ -40,8 +40,8 @@ array.forEach(number => {
     if (number % 2 === 0) {
         even.push(number)
     }
+  return even.length
 })
-  console.log(even.length)
   
 
 assignment.countEvenNumbers = countEvenNumbers;
